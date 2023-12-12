@@ -16,7 +16,13 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        //DI(의존성 주입), 외부에서 인스턴스 생성해서 클래스 인스턴스를 생성할 때 의존성 주입이 이루어짐
+//        let food = 코종반점()
+//        let hue = 휴님(중국집: food)
+        
+        let koko = 코코종()
+        let food = 코종반점(주인: koko)
+        let hue = 휴님(중국집: food)
         
     }
     
