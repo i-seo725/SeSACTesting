@@ -122,20 +122,22 @@ class 휴님 {
 // => 구현체가 아닌 인터페이스 추상화에 의존한다
 //인스턴스를 가지고 있을 때 테스트를 할 경우 어느 곳에 문제가 있는지 명확하지 않음
 
-protocol NetworkProvider {
-    func fetchLotto()
-}
+/*
+ protocol NetworkProvider {
+     func fetchLotto()
+ }
 
-//네트워크 테스트를 할 때는 Mock 데이터를 통해 실제 통신을 하지 않고 테스트를 하는 것이 적합
-//Mock: 더미 응답 데이터
-//프로토콜 안의 메서드를 테스트
+ //네트워크 테스트를 할 때는 Mock 데이터를 통해 실제 통신을 하지 않고 테스트를 하는 것이 적합
+ //Mock: 더미 응답 데이터
+ //프로토콜 안의 메서드를 테스트
 
-class NetworkManager: NetworkProvider {
-    
-    func fetchLotto() { //실제 통신을 진행하는 부분
-        //네트워크 코드
-    }
- 
-    //인터넷 연결이 있어야만 테스트가 성공함 - 외부 환경에 영향을 받으면 안됨
-    
-}
+ class NetworkManager: NetworkProvider {
+     
+     func fetchLotto() { //실제 통신을 진행하는 부분
+         //네트워크 코드
+     }
+  
+     //인터넷 연결이 있어야만 테스트가 성공함 - 외부 환경에 영향을 받으면 안됨
+     
+ }
+ */

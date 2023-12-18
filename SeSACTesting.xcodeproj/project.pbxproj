@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F44374172B2BE2D6002F9CF4 /* InAppPurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44374162B2BE2D6002F9CF4 /* InAppPurchaseViewController.swift */; };
+		F47B07FB2B2FE792006AFA6D /* SeSACShop.storekit in Resources */ = {isa = PBXBuildFile; fileRef = F47B07FA2B2FE792006AFA6D /* SeSACShop.storekit */; };
+		F47B07FF2B2FE959006AFA6D /* SeSACStore.storekit in Resources */ = {isa = PBXBuildFile; fileRef = F47B07FE2B2FE959006AFA6D /* SeSACStore.storekit */; };
+		F47B08012B2FE9F6006AFA6D /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47B08002B2FE9F6006AFA6D /* StoreView.swift */; };
+		F47B08032B2FEAD3006AFA6D /* SeSACShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47B08022B2FEAD3006AFA6D /* SeSACShop.swift */; };
 		F4B1636B2B269B0E00B85756 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B1636A2B269B0E00B85756 /* Login.storyboard */; };
 		F4B1636D2B269B7700B85756 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B1636C2B269B7700B85756 /* LoginViewController.swift */; };
 		F4B1636F2B26A8B900B85756 /* LoginTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B1636E2B26A8B900B85756 /* LoginTestCase.swift */; };
 		F4B163722B26AE6B00B85756 /* LoginUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B163712B26AE6B00B85756 /* LoginUpdateViewController.swift */; };
 		F4B163752B27EBB900B85756 /* DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B163742B27EBB900B85756 /* DI.swift */; };
+		F4B163772B293DD600B85756 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B163762B293DD600B85756 /* NetworkManager.swift */; };
+		F4B1637A2B293E2200B85756 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F4B163792B293E2200B85756 /* Alamofire */; };
+		F4B1637C2B29419400B85756 /* NetworkTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B1637B2B29419300B85756 /* NetworkTestCase.swift */; };
+		F4B1637E2B294DB300B85756 /* NetworkMockTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B1637D2B294DB300B85756 /* NetworkMockTestCase.swift */; };
 		F4E190002B22A6050051E523 /* SeSACTestingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E18FFF2B22A6050051E523 /* SeSACTestingApp.swift */; };
 		F4E190022B22A6050051E523 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E190012B22A6050051E523 /* ContentView.swift */; };
 		F4E190042B22A6070051E523 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E190032B22A6070051E523 /* Assets.xcassets */; };
@@ -39,11 +48,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F44374162B2BE2D6002F9CF4 /* InAppPurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppPurchaseViewController.swift; sourceTree = "<group>"; };
+		F47B07FA2B2FE792006AFA6D /* SeSACShop.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = SeSACShop.storekit; sourceTree = "<group>"; };
+		F47B07FE2B2FE959006AFA6D /* SeSACStore.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = SeSACStore.storekit; sourceTree = "<group>"; };
+		F47B08002B2FE9F6006AFA6D /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		F47B08022B2FEAD3006AFA6D /* SeSACShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACShop.swift; sourceTree = "<group>"; };
 		F4B1636A2B269B0E00B85756 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		F4B1636C2B269B7700B85756 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F4B1636E2B26A8B900B85756 /* LoginTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTestCase.swift; sourceTree = "<group>"; };
 		F4B163712B26AE6B00B85756 /* LoginUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUpdateViewController.swift; sourceTree = "<group>"; };
 		F4B163742B27EBB900B85756 /* DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DI.swift; sourceTree = "<group>"; };
+		F4B163762B293DD600B85756 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F4B1637B2B29419300B85756 /* NetworkTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTestCase.swift; sourceTree = "<group>"; };
+		F4B1637D2B294DB300B85756 /* NetworkMockTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMockTestCase.swift; sourceTree = "<group>"; };
 		F4E18FFC2B22A6050051E523 /* SeSACTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSACTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4E18FFF2B22A6050051E523 /* SeSACTestingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeSACTestingApp.swift; sourceTree = "<group>"; };
 		F4E190012B22A6050051E523 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B1637A2B293E2200B85756 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,12 +132,18 @@
 			children = (
 				F4B163732B27EB7C00B85756 /* DI */,
 				F4E18FFF2B22A6050051E523 /* SeSACTestingApp.swift */,
+				F4B163762B293DD600B85756 /* NetworkManager.swift */,
 				F4E190012B22A6050051E523 /* ContentView.swift */,
 				F4E190032B22A6070051E523 /* Assets.xcassets */,
 				F4E190052B22A6070051E523 /* Preview Content */,
 				F4B1636A2B269B0E00B85756 /* Login.storyboard */,
 				F4B1636C2B269B7700B85756 /* LoginViewController.swift */,
 				F4B163712B26AE6B00B85756 /* LoginUpdateViewController.swift */,
+				F44374162B2BE2D6002F9CF4 /* InAppPurchaseViewController.swift */,
+				F47B07FA2B2FE792006AFA6D /* SeSACShop.storekit */,
+				F47B07FE2B2FE959006AFA6D /* SeSACStore.storekit */,
+				F47B08002B2FE9F6006AFA6D /* StoreView.swift */,
+				F47B08022B2FEAD3006AFA6D /* SeSACShop.swift */,
 			);
 			path = SeSACTesting;
 			sourceTree = "<group>";
@@ -137,6 +161,8 @@
 			children = (
 				F4E190102B22A6070051E523 /* SeSACTestingTests.swift */,
 				F4B1636E2B26A8B900B85756 /* LoginTestCase.swift */,
+				F4B1637B2B29419300B85756 /* NetworkTestCase.swift */,
+				F4B1637D2B294DB300B85756 /* NetworkMockTestCase.swift */,
 			);
 			path = SeSACTestingTests;
 			sourceTree = "<group>";
@@ -166,6 +192,9 @@
 			dependencies = (
 			);
 			name = SeSACTesting;
+			packageProductDependencies = (
+				F4B163792B293E2200B85756 /* Alamofire */,
+			);
 			productName = SeSACTesting;
 			productReference = F4E18FFC2B22A6050051E523 /* SeSACTesting.app */;
 			productType = "com.apple.product-type.application";
@@ -238,6 +267,9 @@
 				Base,
 			);
 			mainGroup = F4E18FF32B22A6050051E523;
+			packageReferences = (
+				F4B163782B293E2200B85756 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = F4E18FFD2B22A6050051E523 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -254,8 +286,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F47B07FF2B2FE959006AFA6D /* SeSACStore.storekit in Resources */,
 				F4E190072B22A6070051E523 /* Preview Assets.xcassets in Resources */,
 				F4E190042B22A6070051E523 /* Assets.xcassets in Resources */,
+				F47B07FB2B2FE792006AFA6D /* SeSACShop.storekit in Resources */,
 				F4B1636B2B269B0E00B85756 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,8 +315,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B163772B293DD600B85756 /* NetworkManager.swift in Sources */,
 				F4B1636D2B269B7700B85756 /* LoginViewController.swift in Sources */,
+				F47B08012B2FE9F6006AFA6D /* StoreView.swift in Sources */,
 				F4B163722B26AE6B00B85756 /* LoginUpdateViewController.swift in Sources */,
+				F47B08032B2FEAD3006AFA6D /* SeSACShop.swift in Sources */,
+				F44374172B2BE2D6002F9CF4 /* InAppPurchaseViewController.swift in Sources */,
 				F4E190022B22A6050051E523 /* ContentView.swift in Sources */,
 				F4B163752B27EBB900B85756 /* DI.swift in Sources */,
 				F4E190002B22A6050051E523 /* SeSACTestingApp.swift in Sources */,
@@ -293,7 +331,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B1637E2B294DB300B85756 /* NetworkMockTestCase.swift in Sources */,
 				F4E190112B22A6070051E523 /* SeSACTestingTests.swift in Sources */,
+				F4B1637C2B29419400B85756 /* NetworkTestCase.swift in Sources */,
 				F4B1636F2B26A8B900B85756 /* LoginTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -616,6 +656,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F4B163782B293E2200B85756 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F4B163792B293E2200B85756 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4B163782B293E2200B85756 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F4E18FF42B22A6050051E523 /* Project object */;
 }
